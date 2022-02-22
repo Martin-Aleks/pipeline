@@ -1,14 +1,5 @@
-Currently struggling with making a plan to write a solution to take the cpu cores into account.
-If there is only one core, it is simple: just sum up the minutes each tasks will take.
-With more than 1 core, it becomes more difficult to take into account if the other cores are free or not 
-and then the dependecies of the tasks. 
-
-I tried writing some functions, but all efforts failed due to incorrect approaches. 
-
-
-
-
-
+Successful iteration over a pipeline.txt file, with an output being an array with tasks that can be run in parallel in chronological order.
+Minimum execution time not yet implemented. There is no account of how much time each tasks takes into the current version of the code.
 
 
 
